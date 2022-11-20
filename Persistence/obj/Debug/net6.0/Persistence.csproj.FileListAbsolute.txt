@@ -1,0 +1,15 @@
+C:\Users\DIOGO\source\repos\Projeto API React\Persistence\bin\Debug\net6.0\Persistence.deps.json
+C:\Users\DIOGO\source\repos\Projeto API React\Persistence\bin\Debug\net6.0\Persistence.dll
+C:\Users\DIOGO\source\repos\Projeto API React\Persistence\bin\Debug\net6.0\Persistence.pdb
+C:\Users\DIOGO\source\repos\Projeto API React\Persistence\bin\Debug\net6.0\Domain.dll
+C:\Users\DIOGO\source\repos\Projeto API React\Persistence\bin\Debug\net6.0\Domain.pdb
+C:\Users\DIOGO\source\repos\Projeto API React\Persistence\obj\Debug\net6.0\Persistence.csproj.AssemblyReference.cache
+C:\Users\DIOGO\source\repos\Projeto API React\Persistence\obj\Debug\net6.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DIOGO\source\repos\Projeto API React\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\DIOGO\source\repos\Projeto API React\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfo.cs
+C:\Users\DIOGO\source\repos\Projeto API React\Persistence\obj\Debug\net6.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\DIOGO\source\repos\Projeto API React\Persistence\obj\Debug\net6.0\Persistence.csproj.CopyComplete
+C:\Users\DIOGO\source\repos\Projeto API React\Persistence\obj\Debug\net6.0\Persistence.dll
+C:\Users\DIOGO\source\repos\Projeto API React\Persistence\obj\Debug\net6.0\refint\Persistence.dll
+C:\Users\DIOGO\source\repos\Projeto API React\Persistence\obj\Debug\net6.0\Persistence.pdb
+C:\Users\DIOGO\source\repos\Projeto API React\Persistence\obj\Debug\net6.0\ref\Persistence.dll
