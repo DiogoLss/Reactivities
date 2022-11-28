@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "UloGM34aMka9AQNwgN6S0JVXAtlwUzyqHKO/vGh00hzvVZtI+tpw8VHsCDllvn0K+UcqP8oFxZpJiGGx3WZYOA==",
+  "dgSpecHash": "tLxeu3kQq8pd7X7euM1RqnNYbdalK33MqgJ9C2lJnoLrwkrI+dp2mpJhA5cczbqQmfG8IwmyZcBgEtwZnFBP3Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\DIOGO\\source\\repos\\Projeto API React\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DIOGO\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\DIOGO\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\DIOGO\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\DIOGO\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\DIOGO\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.1\\microsoft.data.sqlite.core.6.0.1.nupkg.sha512",
     "C:\\Users\\DIOGO\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.1\\microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
     "C:\\Users\\DIOGO\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.1\\microsoft.entityframeworkcore.abstractions.6.0.1.nupkg.sha512",
