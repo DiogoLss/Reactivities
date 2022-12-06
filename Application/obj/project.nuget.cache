@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "SrSkk8KQVCOTXOJwHOL2jNM0yK+a6TJQJLKVQH7fBfdZAkgx9BIXeGbmhMOu4fN5PfTPWH4PzN4QvQyE79a+lA==",
+  "dgSpecHash": "3fJmUJI0BAVTDgGjM2AGGdSCP0m2u13ilondL491OQ86GrKL6A+ictduTEYC4V6AP0GIPCUwqy9mO9JgZoUUtg==",
   "success": true,
   "projectFilePath": "C:\\Users\\DIOGO\\source\\repos\\Projeto API React\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\DIOGO\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\DIOGO\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\DIOGO\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\DIOGO\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\DIOGO\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\DIOGO\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\DIOGO\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.1\\microsoft.data.sqlite.core.6.0.1.nupkg.sha512",
     "C:\\Users\\DIOGO\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.1\\microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
     "C:\\Users\\DIOGO\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.1\\microsoft.entityframeworkcore.abstractions.6.0.1.nupkg.sha512",
