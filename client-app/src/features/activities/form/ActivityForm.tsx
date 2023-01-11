@@ -1,15 +1,15 @@
 import React, { ChangeEvent, useState } from 'react';
 import { Button, Form, Segment } from 'semantic-ui-react';
 import { Activity } from '../../../app/models/activity';
+import { useStore } from '../../../app/stores/store';
 
 interface Props {
     activity: Activity | undefined;
     submitting: boolean;
-    closeForm: () => void;
     createOrEdit: (activity: Activity) => void;
 }
 
-export default function ActivityForm({activity: selectedActivity, submitting, closeForm, createOrEdit}: Props){
+export default function ActivityForm({activity: selectedActivity, submitting, createOrEdit}: Props){
 
     const initialState = selectedActivity ?? {
         id: '',
@@ -30,6 +30,8 @@ export default function ActivityForm({activity: selectedActivity, submitting, cl
         setActivity({...activity, [name]: value})
     }
 
+    const {activityStore} = useStore();
+    const {closeForm} = activityStore;
     return(
         <Segment clearing>
             <Form onSubmit={handleSubmit}>
