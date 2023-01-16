@@ -1,15 +1,12 @@
+import { observer } from 'mobx-react-lite';
 import React, { ChangeEvent, useState } from 'react';
 import { Button, Form, Segment } from 'semantic-ui-react';
-import { Activity } from '../../../app/models/activity';
 import { useStore } from '../../../app/stores/store';
 
-interface Props {
-    activity: Activity | undefined;
-    submitting: boolean;
-    createOrEdit: (activity: Activity) => void;
-}
 
-export default function ActivityForm({activity: selectedActivity, submitting, createOrEdit}: Props){
+export default observer( function ActivityForm(){
+    const {activityStore} = useStore();
+    const {closeForm,selectedActivity,createActivity,updateActivity,loading} = activityStore;
 
     const initialState = selectedActivity ?? {
         id: '',
@@ -23,15 +20,14 @@ export default function ActivityForm({activity: selectedActivity, submitting, cr
     const [activity, setActivity] = useState(initialState);
 
     function handleSubmit(){
-        createOrEdit(activity);
+        activity.id ? updateActivity(activity) : createActivity(activity);
     }
     function handleInputChange(event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>){
         const {name,value} = event.target;
         setActivity({...activity, [name]: value})
     }
 
-    const {activityStore} = useStore();
-    const {closeForm} = activityStore;
+
     return(
         <Segment clearing>
             <Form onSubmit={handleSubmit}>
@@ -41,9 +37,9 @@ export default function ActivityForm({activity: selectedActivity, submitting, cr
                 <Form.Input type='date' placeholder='Date' value={activity.date} name='date' onChange={handleInputChange}/>
                 <Form.Input placeholder='City' value={activity.city} name='city' onChange={handleInputChange}/>
                 <Form.Input placeholder='Venue' value={activity.venue} name='venue' onChange={handleInputChange}/>
-                <Button loading={submitting} floated='right' positive type='submit' content='Submit' />
+                <Button loading={loading} floated='right' positive type='submit' content='Submit' />
                 <Button onClick={closeForm} floated='right' typpe='button' content='Cancel' />
             </Form>
         </Segment>
     )
-}
+})
