@@ -1,6 +1,6 @@
 import { observer } from 'mobx-react-lite';
 import React, { ChangeEvent, useEffect, useState } from 'react';
-import { Redirect, useParams, useHistory } from 'react-router';
+import { useParams, useHistory } from 'react-router';
 import { Button, Form, Segment } from 'semantic-ui-react';
 import LoadingComponent from '../../../app/layout/LoadingComponent';
 import { Activity } from '../../../app/models/activity';
@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 
 export default observer( function ActivityForm(){
     const {activityStore} = useStore();
-    const {selectedActivity,createActivity,updateActivity,loading,loadActivity, initialLoading} = activityStore;
+    const {createActivity,updateActivity,loading,loadActivity, initialLoading} = activityStore;
     const {id} = useParams<{id: string}>();
     const history = useHistory();
 
