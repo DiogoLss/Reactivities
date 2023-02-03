@@ -3,8 +3,9 @@ using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using Persistence;
-using AutoMapper;
 using Application.Core;
+using FluentValidation.AspNetCore;
+using FluentValidation;
 
 namespace API
 {
@@ -35,6 +36,8 @@ namespace API
             });
             services.AddMediatR(typeof(List.Handler).Assembly);
             services.AddAutoMapper(typeof(MappingProfiles).Assembly);
+            services.AddFluentValidationAutoValidation();
+            services.AddValidatorsFromAssemblyContaining<Create>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

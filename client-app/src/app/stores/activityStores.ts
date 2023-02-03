@@ -72,7 +72,7 @@ export default class ActivityStore{
         activity.date = activity.date.split('T')[0];
         this.activityRegestry.set(activity.id,activity);
     }
-
+    
     setInitialLoading = (state: boolean) =>{
         this.initialLoading = state;
     }
